@@ -1,8 +1,8 @@
 import React from "react";
-import CommentList from './chapter_05/Commentlist';
+import IntroduceMain from './report/IntroduceMain';
 function App() {
   return (
-    <CommentList />
+    <IntroduceMain />
   );
 }
 export default App;
