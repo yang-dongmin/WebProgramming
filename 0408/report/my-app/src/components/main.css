@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+.main-QA{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    height: 30vh;
+    width: 20vw;
+    justify-content: center;
+    background-color: #ab5ad169;
+    border-radius: 40px;
+    font-size: 40px; /* 제목 글자 크기 */
+    font-weight: bold; /* 제목 글자 두께 */
+    color: rgb(255, 255, 255);
+    
+}

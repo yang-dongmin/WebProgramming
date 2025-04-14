@@ -1,0 +1,180 @@
+.question-item-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3등분 */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center; /* 카드 가운데 정렬 */
+  }
+  
+  
+  .question-item {
+    width: 100%;
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    word-break: break-word; /* 긴 단어 줄바꿈 */
+  }
+  
+  .question-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .question-item-title {
+    font-size: 18px; /* 제목 글자 크기 */
+    font-weight: bold; /* 제목 글자 두께 */
+    margin-bottom: 10px; /* 제목과 내용 간격 */
+    background-color: rgb(187, 143, 143); /* 제목 배경 색 */
+    color: white; /* 제목 글자 색 */
+    padding: 8px 12px; /* 제목에 패딩 추가 */
+    border-radius: 5px; /* 제목에 둥근 모서리 */
+  }
+
+  .question-item-content {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    position: relative; /* 버튼 위치를 위해 추가 */
+    min-height: 80px; /* 버튼 들어갈 공간 확보 (원하는 높이 조절) */
+  }
+  
+  .answer-inside-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 8px 14px;
+    font-size: 14px;
+    background-color: #9bb8e6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .answer-inside-button:hover {
+    background-color: #7b9fd4;
+  }
+
+  .answer-list-button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 8px 14px;
+    font-size: 14px;
+    background-color: #e458e4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .answer-list-button:hover {
+    background-color: #cf50cf;
+  }
+
+  .question-display {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .question-display-title{
+    font-size: 18px; /* 제목 글자 크기 */
+    font-weight: bold; /* 제목 글자 두께 */
+    margin-bottom: 10px; /* 제목과 내용 간격 */
+    background-color: rgb(187, 143, 143); /* 제목 배경 색 */
+    color: white; /* 제목 글자 색 */
+    padding: 8px 12px; /* 제목에 패딩 추가 */
+    border-radius: 5px; /* 제목에 둥근 모서리 */
+  }
+  .question-display-content {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+  }
+  .answer-write-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 40px;
+}
+.answer-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 40px 0 40px;
+  height: 100vh;
+  align-items: center;
+}
+.answer-form-container {
+  flex: 1;
+  max-width: 50%;
+}
+.answer-textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.submit-button {
+  margin-top: 10px;
+}  
+.question-answer-list {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+}
+.question-answer-title{
+  font-size: 18px; /* 제목 글자 크기 */
+  font-weight: bold; /* 제목 글자 두께 */
+  margin-bottom: 10px; /* 제목과 내용 간격 */
+  background-color: rgb(187, 143, 143); /* 제목 배경 색 */
+  color: white; /* 제목 글자 색 */
+  padding: 8px 12px; /* 제목에 패딩 추가 */
+  border-radius: 5px; /* 제목에 둥근 모서리 */
+}
+.question-answer-content {
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+}  
+.answer-lists-area{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+.answer-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 30px;
+  background-color: #333;
+  color: white;
+}
