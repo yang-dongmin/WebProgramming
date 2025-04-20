@@ -10,4 +10,4 @@
 - git commit -m "message"
     - 커밋할 때 사용될 메세지 입력
 - git push origin main
-    - 원격 저장소에 변경 사항을 반영
+    - 원격 저장소에 변경 사항을 반영 
